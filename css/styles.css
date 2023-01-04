@@ -1,0 +1,181 @@
+body {
+  color: #212529; 
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%; /* érdemes kb duplázni az oldalsó értékeket */
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #bd844d;  
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Dowload Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;  
+}
+
+.nav-item {
+ padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+/* Title Section*/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-container {  
+  position: relative;
+}
+
+.title-image {  
+  width: 80%;
+  transform: rotate(20deg);
+  padding: 0 10%;
+  position: absolute;
+}
+
+/* Features Section */
+
+#features {  
+  line-height: 1.5;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #d8a06c;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #bd844d;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #d8a06c;
+}
+
+.testimonial-user {
+  color: white;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  margin: 20px;
+  width: 13%;  
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+
+#press {
+  background-color: #d8a06c;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 13%;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column { 
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+/* Footer Section */
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1029px) {
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
